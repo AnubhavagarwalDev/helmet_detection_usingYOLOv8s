@@ -5,7 +5,7 @@ import tempfile
 import os
 from ultralytics import YOLO
 
-model = YOLO(r"C:\Users\Anubhav\PycharmProjects\helmet_detection_usingYOLOv8s\best.pt")
+model = YOLO(r"your_file_path")
 st.title("Helmet and Number Plate Detection App (YOLOv8)")
 st.markdown("Upload an **Image or Video** below for Detection:")
 
